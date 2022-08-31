@@ -1,3 +1,8 @@
+:root {
+    --title-text: #0a0a0a;
+    --logo-blue: #377cff;
+    --body-blue: #0075ff;
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -5,42 +10,102 @@
 }
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 body {
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header, #navbar {
     width: 100%;
 }
 #navbar {
-    justify-content: space-around;
-    height: 16rem;
+    justify-content: space-evenly;
+    height: 15.5rem;
     align-items: center;
 }
-#navbar #logo {
+#navbar #logo, #navbar #logo #figures {
     display: flex;
 }
-#logo-div1, #logo-div2 {
-    position: relative;
-    bottom: 0;
+#figures {
+    height: max-content;
+    margin-bottom: auto ;
+}
+#logo-div1, #logo-div2, #logo p {
+    margin-top: auto;
 }
 #logo-div1 {
     width: 13px;
     height: 30px;
-    background-color: black;
+    background: var(--title-text);
+    border-radius: 11px;
+    margin-right: 3px;
 }
 #logo-div2 {
-    width: 8px;
-    height: 15px;
-    background-color: blue;
+    width: 10px;
+    height: 20px;
+    background: var(--logo-blue);
+    border-radius: 5px;
+    margin-right: 8px;
+}
+#logo p {
+    font-size: 3.3rem;
+    font-weight: bold;
 }
 #navbar, #navbar #menu {
     display: flex;
 }
 #menu {
     list-style: none;
+    margin-left: 1.4rem;
 }
 #menu li {
-    padding: 0 1rem;
-    margin: 0 3rem;
+    margin: 0 2rem;
+    font-size: 1.5rem;
+}
+#menu li:first-child {
+    font-weight: bold;
+}
+#sign-buttons {
+    padding: 1.5rem 0;
+}
+#sign-buttons .button {
+    text-decoration: none;
+    color: var(--title-text);
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 1.5rem 3.8rem;
+}
+.sign-up {
+    border: 2px solid var(--title-text);
+    border-radius: 2.8rem;
+}
+.sign-in {
+    margin-right: 2.5rem;
+}
+/*Header ends*/
+/*Body starts*/
+#section1 {
+    display: flex;
+    justify-content: right;
+}
+#section1 #text-container {
+    margin-left: 4rem;
+}
+#section1 h1 {
+    font-size: 8.5rem;
+}
+#text-container .clients {
+    font-size: 1rem;
+}
+#text-container p, #text-button-container a {
+    font-size: 2rem;
+    font-weight: bold;
+}
+#text-button-container {
+    display: flex;
+}
+#text-button-container a {
+    text-decoration: none;
+    color: var(--title-text);
 }
