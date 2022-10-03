@@ -3,6 +3,7 @@
     --logo-blue: #377cff;
     --body-blue: #0075ff;
     --white: #FFFFFF;
+    --grey: #8b8b8b;
 }
 *{
     box-sizing: border-box;
@@ -134,7 +135,14 @@ header, #navbar {
     height: auto;
 }
 #text-container .clients {
-    font-size: 1rem;
+    font-size: 1.3rem;
+    margin-top: 80px;
+    color: var(--grey);
+}
+.clients span {
+    color: var(--title-text);
+    font-size: 2.3rem;
+    font-weight: bold;
 }
 #text-container p {
     font-size: 2rem;
@@ -151,3 +159,4 @@ header, #navbar {
     padding-top: 6rem;
     position: relative;
 }
+/*section 1 ends here*/
