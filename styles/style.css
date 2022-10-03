@@ -2,6 +2,7 @@
     --title-text: #0a0a0a;
     --logo-blue: #377cff;
     --body-blue: #0075ff;
+    --white: #FFFFFF;
 }
 *{
     box-sizing: border-box;
@@ -69,19 +70,19 @@ header, #navbar {
 #menu li:first-child {
     font-weight: bold;
 }
-#sign-buttons {
-    padding: 1.5rem 0;
-}
-#sign-buttons .button {
+
+.button {
     text-decoration: none;
-    color: var(--title-text);
     font-size: 1.8rem;
     font-weight: bold;
+    border-radius: 2.8rem;
+}
+#sign-buttons .button {
+    color: var(--title-text);
     padding: 1.5rem 3.8rem;
 }
 .sign-up {
     border: 2px solid var(--title-text);
-    border-radius: 2.8rem;
 }
 .sign-in {
     margin-right: 2.5rem;
@@ -98,24 +99,53 @@ header, #navbar {
 #section1 #text-container {
     margin-left: 4rem;
     padding-top: 9.5rem;
-    padding-left: 12rem;
+    padding-left: 11.5rem;
 }
 #section1 h1 {
     font-size: 8.5rem;
 }
-#text-container .clients {
-    font-size: 1rem;
+#section1 .description {
+    margin: 32px 0;
+    font-size: 2.2rem;
+    line-height: 40px;
+    width: 90%;
 }
-#text-container p, #text-button-container a {
-    font-size: 2rem;
-    font-weight: bold;
+
+.body-button {
+    background-color: var(--body-blue);
+    color: var(--white);
+    font-size: 3rem;
+    padding: 2.2rem 4.3rem;
+    border-radius: 60px;
 }
 #text-button-container {
     display: flex;
+    align-items: center;
+    width: 100%;
 }
-#text-button-container a {
-    text-decoration: none;
-    color: var(--title-text);
+#text-button-container div {
+    display: flex;
+    align-items: center;
+    margin: 0 50px;
+    gap: 30px;
+}
+#text-button-container img {
+    width: 50px;
+    height: auto;
+}
+#text-container .clients {
+    font-size: 1rem;
+}
+#text-container p {
+    font-size: 2rem;
+    font-weight: 500;
+}
+#text-button-container a{
+    font-weight: lighter;
+    font-size: 2rem;
+}
+#text-button-container {
+    display: flex;
 }
 #section1 #image-container {
     padding-top: 6rem;
