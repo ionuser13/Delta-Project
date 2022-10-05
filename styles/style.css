@@ -95,12 +95,11 @@ header, #navbar {
     display: flex;
     justify-content: flex-end;
     gap: 12px;
+    margin-left: 160px;
 
 }
 #section1 .text-container {
-    margin-left: 4rem;
     padding-top: 9.5rem;
-    padding-left: 11.5rem;
 }
 #section1 h1 {
     font-size: 8.5rem;
@@ -160,3 +159,22 @@ header, #navbar {
     position: relative;
 }
 /*section 1 ends here*/
+/*starts section 2*/
+#section2 {
+    margin-left: 160px;
+    margin-top: 160px;
+}
+.main-part {
+    display: flex;
+}
+.pre-title {
+    color: var(--grey);
+    font-size: 20px;
+    font-weight: bold;
+}
+.title {
+    margin: 44px 0;
+    font-size: 5rem;
+    width: 70%;
+    line-height: 70px;
+}
