@@ -193,7 +193,7 @@ header, #navbar {
     position: relative;
     left: 40px;
     top: 10px;
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 3.2rem;
 }
 .main-part .description, .specs {
@@ -202,13 +202,17 @@ header, #navbar {
 .specs {
     margin: 40px 0;
     list-style: none;
+    margin-bottom: 60px;
 }
 .specs li {
-    margin: 16px 0;
+    margin: 12px 0;
     display: flex;
     align-items: center;
 }
 .list-icon {
     width: 20px;
     margin: 4px;
+}
+.text-container .body-button {
+    font-size: 2rem;
 }
