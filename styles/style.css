@@ -4,6 +4,8 @@
     --body-blue: #0075ff;
     --white: #FFFFFF;
     --grey: #8b8b8b;
+    --margin-side: 160px;
+    --margin-sections: 160px;
 }
 *{
     box-sizing: border-box;
@@ -96,7 +98,7 @@ header, #navbar {
     display: flex;
     justify-content: flex-end;
     gap: 12px;
-    margin-left: 160px;
+    margin-left: var(--margin-side);
 }
 #section1 .text-container {
     padding-top: 9.5rem;
@@ -163,12 +165,12 @@ header, #navbar {
 /*starts section 2*/
 #section2 {
     margin-top: 160px;
+    margin-left: var(--margin-side);
 }
 .pre-title {
     color: var(--grey);
     font-size: 20px;
     font-weight: bold;
-    margin-left: 160px;
 }
 .main-part {
     display: flex;
@@ -180,11 +182,10 @@ header, #navbar {
     font-size: 5rem;
     width: 60%;
     line-height: 70px;
-    margin-left: 160px;
 }
 .image-container1 {
     width: 70%;
-    margin-left: 120px;
+    margin-left: -40px;
 }
 .main-image-body {
     width: 100%;
@@ -215,4 +216,16 @@ header, #navbar {
 }
 .text-container .body-button {
     font-size: 2rem;
+}
+/*section 2 ends - section 3 starts*/
+#section3 {
+    margin: 0 var(--margin-side);
+    margin-top: var(--margin-sections);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.services-grid {
+    margin-top: 80px;
 }
