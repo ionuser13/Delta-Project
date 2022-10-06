@@ -237,7 +237,7 @@ header, #navbar {
 }
 .service {
     border: 2px solid var(--light-grey);
-    border-radius: 8px;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
