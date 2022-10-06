@@ -227,5 +227,16 @@ header, #navbar {
     text-align: center;
 }
 .services-grid {
-    margin-top: 80px;
+    margin-top: 92px;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(3, 170%);
+    gap: 50px 30px;
+    width: 100%;
+}
+.service {
+    border: 1px solid black;
+}
+#discover {
+    margin-top: 300px;
 }
