@@ -6,6 +6,7 @@
     --grey: #8b8b8b;
     --margin-side: 160px;
     --margin-sections: 160px;
+    --light-grey: #d7d7d7;
 }
 *{
     box-sizing: border-box;
@@ -230,12 +231,38 @@ header, #navbar {
     margin-top: 92px;
     display: grid;
     grid-template-columns: repeat(3, 30%);
-    grid-template-rows: repeat(3, 170%);
+    grid-template-rows: repeat(3);
     gap: 50px 30px;
     width: 100%;
 }
 .service {
-    border: 1px solid black;
+    border: 2px solid var(--light-grey);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    padding: 40px 48px;
+    gap: 40px;
+}
+.service .upper-div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.upper-div p:nth-child(3) {
+    color: grey;
+    line-height: 30px;
+}
+.service .service-title {
+    font-weight: bold;
+    font-size: 3rem;
+}
+.service p {
+    font-size: 2rem;
+}
+.service p:nth-child(2) {
+    font-weight: bold;
 }
 #discover {
     margin-top: 300px;
