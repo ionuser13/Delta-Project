@@ -296,9 +296,6 @@ header, #navbar {
 #section4 .title {
     width: 70%;
 }
-.green-check {
-    width: 20px;
-}
 .switch-container {
     display: flex;
     align-items: center;
@@ -373,3 +370,39 @@ header, #navbar {
     transform: translate3d(22px, 2px, 0);
 }
 /*switch styles end*/
+.plans-grid {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid black;
+}
+.plan {
+    width: 30%;
+    border: 2px solid var(--light-grey);
+    border-radius: 12px;
+}
+.plan-title {
+    font-weight: bold;
+    font-size: 3.2rem;
+}
+.plan-price {
+    font-size: 6rem;
+    font-weight: 700;
+
+}
+.plan-price span {
+    font-size: 1.6rem;
+    color: var(--light-grey);
+    font-weight: normal;
+}
+.plan-features {
+    list-style: none;
+    font-size: 1.6rem;
+    color: var(--grey);
+    line-height: 40px;
+    text-align: left;
+    padding: 0 40px;
+}
+.green-check {
+    width: 16px;
+}
