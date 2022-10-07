@@ -7,6 +7,7 @@
     --margin-side: 160px;
     --margin-sections: 160px;
     --light-grey: #d7d7d7;
+    --yellow: #fddc01;
 }
 *{
     box-sizing: border-box;
@@ -298,11 +299,24 @@ header, #navbar {
 .green-check {
     width: 20px;
 }
+.switch-container {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+.switch-container p {
+    background-color: var(--yellow);
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
 /*switch styles start*/
 .form-switch {
     display: inline-block;
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
+    
 }
 .form-switch i {
     position: relative;
@@ -358,3 +372,4 @@ header, #navbar {
 .form-switch input:checked + i::after {
     transform: translate3d(22px, 2px, 0);
 }
+/*switch styles end*/
