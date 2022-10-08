@@ -254,7 +254,7 @@ header, #navbar {
     flex-direction: column;
     gap: 30px;
 }
-.upper-div p:nth-child(3) {
+.upper-div p:nth-child(3) { 
     color: grey;
     line-height: 30px;
 }
@@ -262,11 +262,13 @@ header, #navbar {
     font-weight: bold;
     font-size: 3rem;
 }
-.service p {
+.service p, .service a {
     font-size: 2.4rem;
 }
-.service p:nth-child(2) {
+.service a:nth-child(2) {
     font-weight: bold;
+    color: #000000;
+    text-decoration: none;
 }
 #discover {
     margin-top: 140px;
@@ -294,12 +296,14 @@ header, #navbar {
     margin-top: var(--margin-sections);
 }
 #section4 .title {
-    width: 70%;
+    width: 60%;
 }
 .switch-container {
     display: flex;
     align-items: center;
     font-size: 2rem;
+    position: relative;
+    top: -32px;
 }
 .switch-container p {
     background-color: var(--yellow);
@@ -380,6 +384,7 @@ header, #navbar {
     width: 30%;
     border: 2px solid var(--light-grey);
     border-radius: 12px;
+    padding: 36px 40px;
 }
 .plan-title {
     font-weight: bold;
@@ -401,8 +406,28 @@ header, #navbar {
     color: var(--grey);
     line-height: 40px;
     text-align: left;
-    padding: 0 40px;
+
 }
 .green-check {
     width: 16px;
+    margin: 0 8px;
+}
+.save {
+    font-size: 1.6rem;
+    font-weight: bold;
+    background-color: var(--light-grey);
+    width: max-content;
+    margin: 0 auto;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+.plan-button {
+    background-color: var(--body-blue);
+    width: 100%;
+    color: var(--white);
+    font-size: 2.2rem;
+    padding: 12px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
 }
