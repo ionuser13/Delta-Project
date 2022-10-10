@@ -460,7 +460,15 @@ header, #navbar {
 }
 .opinion-logo {
     width: 100px;
-    border: 1px solid black;
+
+}
+.opinion-grid .opinion:nth-child(1) .opinion-logo{
+    margin: 8px 0;
+    margin-bottom: 18px;
+}
+.opinion-grid .opinion:nth-child(2) .opinion-logo{
+    margin: 4px 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 .opinion-body {
     font-size: 1.6rem;
