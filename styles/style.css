@@ -527,10 +527,10 @@ header, #navbar {
 .blog-container {
     display: flex;
     gap: 40px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     text-align: left;
-    padding: 0 16rem;
+    padding: 16rem;
 }
 .blog-container .post {
     flex: 1;
@@ -538,25 +538,55 @@ header, #navbar {
 .blog-container .image-post {
     flex: 4;
     position: relative;
+    left: 7%;
 }
 .image-post>img {
-    width: 100%;
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
 }
 .image-post>div {
     position: absolute;
-    bottom: 0;
+    bottom: 2px;
     color: var(--white);
-    width: 100%;
+    width: 80%;
     height: 100%;
-    background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);
+    background: linear-gradient(0deg, #00000088 30%, #ffffff44 50%);
     display: flex;
     align-items: flex-end;
+    border-radius: 30px;
+}
+.text {
+    padding: 30px 48px;
+}
+.text>p:nth-child(1) {
+    font-size: 1.4rem;
+}
+.text>p:nth-child(2) {
+    font-size: 2rem;
+    margin: 16px 0;
+}
+.text>div {
+    display: flex;
+    justify-content: space-between;
+}
+.text div>p {
+    font-size: 1.4rem;
+    width: 50%;
+    line-height: 24px;
+}
+.text div>.body-button {
+    padding: .5rem 2rem;
 }
 .text a {
     display: flex;
     align-items: center;
     text-decoration: none;
     color: var(--white);
+    gap: 12px;
+}
+.text a img {
+    width: 12px;
 }
 .post>p:nth-child(1), .post>p:nth-child(3) {
     color: var(--grey);
@@ -581,6 +611,6 @@ header, #navbar {
 #section6 a p {
     font-size: 1.4rem;
 }
-#section6 a img {
+.post a img {
     width: 25px;
 } 
