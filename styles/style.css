@@ -9,6 +9,7 @@
     --margin-sections: 160px;
     --light-grey: #d7d7d7;
     --yellow: #fddc01;
+    --blog-background: #eeefef;
 }
 *{
     box-sizing: border-box;
@@ -514,3 +515,53 @@ header, #navbar {
     width: 50px;
     height: 100%;
 }
+/*section 5 ends - section 6 starts*/
+#section6 {
+    background-color: var(--blog-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.blog-container {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    text-align: left;
+}
+.blog-container .post {
+    width: 20%;
+}
+.blog-container .image-post {
+    width: 50%;
+}
+.post>p:nth-child(1), .post>p:nth-child(3) {
+    color: var(--grey);
+    font-size: 1.6rem;
+    text-align: left;
+}
+.post>p:nth-child(2) {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.post>p:nth-child(3) {
+    line-height: 28px;
+}
+.post a  {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+#section6 a img {
+    width: 50px;
+} 
+
+
+
+/* .image-post {
+    background-image: url(https://ifeelonline.com/wp-content/uploads/2022/06/jud-mackrill-Of_m3hMsoAA-unsplash-1-1.jpg) ;
+} */
