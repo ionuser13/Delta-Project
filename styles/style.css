@@ -447,6 +447,7 @@ header, #navbar {
 }
 #section5 .title {
     width: 40%;
+    margin-top: 28px;
 }
 .opinion-grid {
     display: flex;
