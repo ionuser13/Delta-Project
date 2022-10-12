@@ -685,6 +685,18 @@ header, #navbar {
 footer {
     margin: 0 var(--margin-side);
 }
-.upper-footer {
+.upper-footer, .lower-footer {
     display: flex;
+    justify-content: space-between;
+}
+.upper-footer ul, .lower-footer ul {
+    list-style: none;
+} 
+.upper-footer ul {
+    width: 21%;
+}
+.upper-footer ul:nth-child(1) li:nth-child(2) {
+    font-size: 1.6rem;
+    margin: 24px 0;
+    line-height: 3.6rem;
 }
