@@ -692,12 +692,19 @@ footer {
 }
 .upper-footer ul, .lower-footer ul {
     list-style: none;
-} 
-.upper-footer ul {
-    width: 21%;
-}
-.upper-footer ul:nth-child(1) li:nth-child(2) {
     font-size: 1.6rem;
+} 
+.upper-footer ul:nth-child(1) li:nth-child(2) {
     margin: 24px 0;
     line-height: 3.6rem;
+}
+.upper-footer ul:first-child {
+    width: 21%;
+}
+.upper-footer ul:not(:first-child) li:first-child {
+    font-weight: bold;
+    font-size: 2rem;
+}
+.upper-footer ul:not(:first-child) li {
+    margin: 20px 0;
 }
