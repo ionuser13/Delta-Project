@@ -636,3 +636,48 @@ header, #navbar {
     flex-direction: column;
     justify-content: center;
 }
+.news-container p:nth-child(1) {
+    font-size: 2rem;
+}
+.news-container h1 {
+    font-size: 3.6rem;
+    margin: 28px 0;
+}
+.news-container p:nth-child(3) {
+    font-size: 1.6rem;
+    width: 36%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    line-height: 24px;
+}
+#email-container {
+    border: 1px solid var(--white);
+    margin: 0 auto;
+    width: 40%;
+    padding: 5px 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#enter {
+    width: 70%;
+    background: transparent;
+    border: none;
+    outline:none;
+    font-style: italic;
+    font-weight: lighter;
+    margin-left: 16px;
+}
+#enter:active {
+    border: none;
+    outline:none;
+}
+#enter::placeholder {
+    color: var(--white);
+}
+#get-started {
+    padding: 13px 28px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+}
