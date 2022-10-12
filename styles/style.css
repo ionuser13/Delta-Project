@@ -33,7 +33,7 @@ header, #navbar {
     height: 15.5rem;
     align-items: center;
 }
-#navbar #logo, #navbar #logo #figures {
+#logo, #figures {
     display: flex;
 }
 #navbar #logo {
@@ -523,7 +523,7 @@ header, #navbar {
     align-items: center;
     text-align: center;
     width: 100%;
-    padding: 14rem 16rem 12rem 16rem;
+    padding: 14rem var(--margin-side) 12rem var(--margin-side);
 }
 #section6 .title {
     margin-top: 28px;
@@ -680,4 +680,11 @@ header, #navbar {
     font-weight: bold;
     border-radius: 30px;
     border: none;
+}
+/*footer*/
+footer {
+    margin: 0 var(--margin-side);
+}
+.upper-footer {
+    display: flex;
 }
