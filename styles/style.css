@@ -617,3 +617,22 @@ header, #navbar {
     width: 25px;
 } 
 /*section 6 ends - s7 to be put - s8 starts*/
+#section8 {
+    height: 90vh;
+    background: var(--blog-background);
+    margin: 5vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.news-container {
+    background-color: var(--body-blue);
+    border-radius: 20px;
+    width: 83.5%;
+    height: 70%;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
