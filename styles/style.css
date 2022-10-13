@@ -619,10 +619,29 @@ header, #navbar {
 /*section 6 ends - s7 starts*/
 #section7 {
     display: flex;
-    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 108px;
 }
-#section7 .text-container img {
+#section7 .title {
+    margin: 12px 0;
+    line-height: normal;
+}
+#section7 .image-container img{
+    width: 600px;
+    height: auto;
+}
+.phone-mail {
+    display: flex;
+    gap: 40px;
+}
+.phone img {
+    padding: 12px;
+}
+.phone-mail img {
     width: 50px;
+    background-color: var(--light-grey);
+    border-radius: 8px;
 }
 /*s7 ends - s8 starts*/
 #section8 {
