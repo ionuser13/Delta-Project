@@ -28,6 +28,9 @@ body {
 header, #navbar {
     width: 100%;
 }
+a {
+    text-decoration: none;
+}
 #navbar {
     justify-content: space-evenly;
     height: 15.5rem;
@@ -74,7 +77,6 @@ header, #navbar {
 #menu li a {
     margin: 0 2rem;
     font-size: 1.5rem;
-    text-decoration: none;
     color: black;
 }
 #menu li:first-child {
@@ -82,7 +84,6 @@ header, #navbar {
 }
 
 .button {
-    text-decoration: none;
     font-size: 1.8rem;
     font-weight: bold;
     border-radius: 2.8rem;
@@ -795,6 +796,9 @@ footer {
 }
 .upper-footer ul:not(:first-child) li {
     margin: 20px 0;
+}
+.upper-footer a, .lower-footer a {
+    color: black;
 }
 .upper-footer ul:nth-child(4) li:nth-child(4) {
     margin-top: 30px;
