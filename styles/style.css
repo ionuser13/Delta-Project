@@ -218,9 +218,6 @@ header, #navbar {
     width: 20px;
     margin: 4px;
 }
-.text-container .body-button {
-    font-size: 2rem;
-}
 /*section 2 ends - section 3 starts*/
 #section3 {
     margin: 0 var(--margin-side);
@@ -655,6 +652,10 @@ header, #navbar {
     color: black;
     margin-bottom: 12px;
 }
+form {
+    display: flex;
+    flex-direction: column;
+}
 #section7 form p {
     color: var(--grey);
     font-size: 1.6rem;
@@ -683,6 +684,16 @@ form input::placeholder {
 form input:active {
     border: none;
     outline: none;
+}
+#section7 .body-button {
+    padding: 20px;
+    font-size: 1.6rem;
+    border: none;
+    cursor: pointer;
+    width: max-content;
+    align-self: flex-end;
+    position: relative;
+    bottom: 20px;
 }
 /*s7 ends - s8 starts*/
 #section8 {
