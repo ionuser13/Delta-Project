@@ -633,16 +633,28 @@ header, #navbar {
 }
 .phone-mail {
     display: flex;
-    gap: 40px;
+    gap: 80px;
+    margin: 20px 0;
+}
+.phone-mail img {
+    width: 40px;
+    background-color: var(--light-grey);
+    border-radius: 8px;
+    margin-bottom: 20px;
 }
 .phone img {
     padding: 12px;
 }
-.phone-mail img {
-    width: 50px;
-    background-color: var(--light-grey);
-    border-radius: 8px;
+.phone p, .email p{
+    font-size: 1.6rem;
+    color: var(--grey);
 }
+.phone p:nth-child(2), .email p:nth-child(2) {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 12px;
+}
+
 /*s7 ends - s8 starts*/
 #section8 {
     height: 90vh;
