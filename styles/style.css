@@ -634,7 +634,8 @@ header, #navbar {
 .phone-mail {
     display: flex;
     gap: 80px;
-    margin: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 72px;
 }
 .phone-mail img {
     width: 40px;
@@ -654,7 +655,35 @@ header, #navbar {
     color: black;
     margin-bottom: 12px;
 }
-
+#section7 form p {
+    color: var(--grey);
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+form div {
+    display: flex;
+    gap: 32px;
+}
+form div, form #email, form #project {
+    width: 100%;
+}
+form #name, form #number {
+    width: 48%;
+}
+#email, #project, #name, #number {
+    padding: 8px 0;
+    margin-bottom: 52px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid var(--grey);
+}
+form input::placeholder {
+    font-size: 1.6rem;
+}
+form input:active {
+    border: none;
+    outline: none;
+}
 /*s7 ends - s8 starts*/
 #section8 {
     height: 90vh;
@@ -709,7 +738,7 @@ header, #navbar {
 }
 #enter:active {
     border: none;
-    outline:none;
+    outline: none;
 }
 #enter::placeholder {
     color: var(--white);
