@@ -619,6 +619,8 @@ header, #navbar {
     align-items: center;
     justify-content: center;
     gap: 108px;
+    margin-top: 100px;
+    margin-bottom: 70px;
 }
 #section7 .title {
     margin: 12px 0;
