@@ -71,9 +71,11 @@ header, #navbar {
     list-style: none;
     margin-left: 1.4rem;
 }
-#menu li {
+#menu li a {
     margin: 0 2rem;
     font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
 }
 #menu li:first-child {
     font-weight: bold;
@@ -579,7 +581,6 @@ header, #navbar {
 .text a {
     display: flex;
     align-items: center;
-    text-decoration: none;
     color: var(--white);
     gap: 12px;
 }
