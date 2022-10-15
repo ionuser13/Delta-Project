@@ -307,11 +307,13 @@ a {
 }
 .switch-container p {
     background-color: var(--yellow);
-    font-weight: bold;
     font-size: 1.6rem;
     padding: 5px 10px;
     margin: 0 28px;
     border-radius: 20px;
+}
+.bold {
+    font-weight: bold;
 }
 /*switch styles start*/
 .form-switch {
@@ -674,12 +676,19 @@ form div, form #email, form #project {
 form #name, form #number {
     width: 48%;
 }
-#email, #project, #name, #number {
+#number::-webkit-inner-spin-button, #number::-webkit-outer-spin-button {
+    display: none;
+}
+.box {
     padding: 8px 0;
     margin-bottom: 52px;
     border: none;
     outline: none;
     border-bottom: 2px solid var(--grey);
+    transition: border-bottom 0.5s
+}
+.box:focus {
+    border-bottom: 2px solid var(--body-blue);
 }
 form input::placeholder {
     font-size: 1.6rem;

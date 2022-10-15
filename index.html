@@ -129,10 +129,10 @@
             <h1 class="title">Choose The Right Plan For Your Business</h1>
             <div class="switch-container">
                 <label class="form-switch">
-                    <span>Monthly</span>
+                    <span id="month" clasS="bold">Monthly</span>
                     <input type="checkbox">
-                    <i></i>
-                    <span>Yearly</span>
+                    <i id="switch"></i>
+                    <span id="year" class="">Yearly</span>
                 </label><!--for ios switch-->
                 <p>20% Save</p>
             </div>
@@ -284,11 +284,11 @@
                 <form action="">
                     <p>Enter Your Name</p>
                     <div>
-                        <input type="text" id="name" name="name" placeholder="Alex">
-                        <input type="number" id="number" name="number" placeholder="Your Phone Number">
+                        <input type="text" id="name" name="name" placeholder="Alex" class="box">
+                        <input type="number" id="number" name="number" placeholder="Your Phone Number" class="box">
                     </div>
-                    <input type="email" name="email" id="email" placeholder="Your E-mail">
-                    <input type="text" name="project" id="project" placeholder="Tell About Your Project">
+                    <input type="email" name="email" id="email" placeholder="Your E-mail" class="box">
+                    <input type="text" name="project" id="project" placeholder="Tell About Your Project" class="box">
                     <input type="submit" class="message body-button" value="Send a message">
                 </form>
             </div>
@@ -354,5 +354,6 @@
             </ul>
         </div>
     </footer>
+    <script src="/index.js"></script>
 </body>
 </html>
