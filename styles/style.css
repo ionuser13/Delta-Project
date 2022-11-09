@@ -287,6 +287,14 @@ a {
     margin-right: 60px;
     padding: 2.8rem 5rem;
 }
+.logo {
+    scale: 2.5;
+    padding: .8rem;
+    border-radius: 50%;
+    width: fit-content;
+    height: auto;
+    background-color: var(--light-grey);
+}
 /*section 3 ends - section 4 starts here*/
 #section4 {
     display: flex;
@@ -786,6 +794,7 @@ footer {
 }
 .upper-footer, .lower-footer {
     display: flex;
+    flex-wrap: wrap;
 
 }
 .upper-footer {
